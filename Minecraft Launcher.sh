@@ -45,7 +45,7 @@ check_versions() {
         rm -f "$GAMEDIR/minecraft-launcher/forge-1.9.4-key"
     fi
 	# Forge 1.9.4
-    if [ -f "$GAMEDIR/.minecraft/versions/1.9.4-forge/1.9.4-Forge.jar" ] || [ -f "$GAMEDIR/.minecraft/versions/1.9.4-forge1.9.4-12.17.0.2317-1.9.4/1.9.4-forge1.9.4-12.17.0.2317-1.9.4.jar" ]; then
+    if [ -f "$GAMEDIR/.minecraft/versions/1.9.4-forge/1.9.4-forge.jar" ] || [ -f "$GAMEDIR/.minecraft/versions/1.9.4-forge1.9.4-12.17.0.2317-1.9.4/1.9.4-forge1.9.4-12.17.0.2317-1.9.4.jar" ]; then
         touch "$GAMEDIR/minecraft-launcher/forge-1.9.4-sky-key"
     else
         rm -f "$GAMEDIR/minecraft-launcher/forge-1.9.4-sky-key"
