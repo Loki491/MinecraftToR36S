@@ -6,7 +6,7 @@ Patch for R36S to join serveur SkyR36S by skyserv.fr
 
 1. Installer Minecraft Java depuis **PortMaster**.
 2. Démarrer Minecraft en version **1.9.4**, puis le fermer.
-3. Dans le dossier `ressourcer`, exécuter `forge.exe` ou `forge.jar` pour installer Forge.
+3. Dans le dossier `ressourcer`, exécuter `forge.jar` pour installer Forge et Démarrer Minecraft en version **1.9.4 forge**, puis le fermer.
 4. Copier le dossier `.minecraft` situé dans `%appdata%/Roaming` vers `/roms/ports/minecraftjava`.
 5. Écraser le dossier `minecraftjava` et le fichier `Minecraft Launcher.sh` avec ceux présents dans `port.zip`.
 6. Éditer le fichier `login.conf` :
@@ -31,7 +31,7 @@ trad by GTP
 
 1. Install **Minecraft Java** via **PortMaster**.
 2. Launch Minecraft version **1.9.4**, then close it.
-3. In the `ressourcer` folder, run `forge.exe` or `forge.jar` to install Forge.
+3. In the `ressourcer` folder, run `forge.jar` to install Forge. and Launch Minecraft version **1.9.4 forge**, then close it.
 4. Copy the `.minecraft` folder from `%appdata%/Roaming` to `/roms/ports/minecraftjava`.
 5. Overwrite the `minecraftjava` folder and `Minecraft Launcher.sh` with the ones from `port.zip`.
 6. Edit the `login.conf` file:
